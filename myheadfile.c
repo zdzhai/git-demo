@@ -34,7 +34,10 @@ stru_Gro * readGro(char* filename,int TOTAL,stru_Gro data[],
     
     return  data;
 }
-
+/**
+ * @brief calculate the absolute distance
+ *
+ */
 float pbcr(float a1,float b1,float c1,float a2,float b2,float c2)
 {
 	float X,Y,Z,R;
