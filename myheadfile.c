@@ -37,6 +37,7 @@ stru_Gro * readGro(char* filename,int TOTAL,stru_Gro data[],
 /**
  * @brief calculate the absolute distance
  * @param hot-fix test***********************************
+ * @param update the code by orizeZzd
  */
 float pbcr(float a1,float b1,float c1,float a2,float b2,float c2)
 {
